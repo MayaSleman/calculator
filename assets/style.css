@@ -55,3 +55,11 @@ form input:hover{
     background-color: #fff;
     color: black;
 }
+@media (max-width: 373px) {
+    .calculator form input{
+        width: 40px;
+    }
+    form input.equal{
+        width: 108px;
+        }
+}
